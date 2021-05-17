@@ -34,7 +34,7 @@ import {
               justify="center"
               direction={{ base: 'column', md: 'row' }}
               mt="10"
-              mb="20"
+              mb="5"
               spacing="4"
             >
               <LightMode>
@@ -53,11 +53,16 @@ import {
                 </Button>
                 </Stack>
               </form>
-
-
               </LightMode>
+              
             </Stack>
-  
+            <Box textAlign="center" mb="25">
+
+            <Text fontSize="2xl" maxW="xl" mx="auto" color="gray.300">
+                August 15th, 2021 | Online
+              </Text>
+            </Box>
+
             <Box
               mb={{ base: '-20', md: '-40' }}
               className="group"
