@@ -38,9 +38,9 @@ import {
               spacing="4"
             >
               <LightMode>
-              <form data-netlify="true" name="pizzaOrder" method="POST" action="/success"  >
+              <form action="https://submit-form.com/KSm1o9II"  >
               <Stack maxW="md" spacing="4" direction={{ base: 'column', sm: 'row' }}>
-                <Input type="email" placeholder="Enter your Email" size="lg" />
+                <Input type="email"  name="email" placeholder="Enter your Email" size="lg" />
                 <Button
                     type="submit"
                     size="lg"

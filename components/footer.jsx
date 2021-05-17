@@ -33,12 +33,12 @@ return(
     </WrapItem>
   </Box>
   <Box>
-    <WrapItem color="#fff" fontSize="md" as="a" href="https://bitproject.org">
+    <WrapItem color="#fff" fontSize="md" as="a" href="mailto:student@serverlessdays.io">
       Contact Us
     </WrapItem>
   </Box>
   <Box>
-    <WrapItem color="#fff" fontSize="md" as="a" href="https://bitproject.org">
+    <WrapItem color="#fff" fontSize="md" as="a" href="https://sessionize.com/serverless-days-student-edition/">
       CFP
     </WrapItem>
   </Box>

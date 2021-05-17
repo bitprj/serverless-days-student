@@ -4,7 +4,7 @@ import * as React from 'react'
 export const CallToActionLink = () => (
   <Box
     as="a"
-    href="https://google.com"
+    href="https://sessionize.com/serverless-days-student-edition/"
     py="1"
     px="4"
     bg="white"
