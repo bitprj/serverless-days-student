@@ -44,8 +44,8 @@ export const Team = () => (
             role={member.role}
             image={member.image}
             name={member.name}
-            twitter="#"
-            linkedIn="#"
+            twitter={member.twitter}
+            linkedIn={member.linkedin}
           >
             {member.description}
           </Member>
