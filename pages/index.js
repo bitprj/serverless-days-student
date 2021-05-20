@@ -5,6 +5,7 @@ import { Hero } from './../components/hero'
 import { Alert } from './../components/alert'
 import { Features } from './../components/feature'
 import { Footer } from './../components/footer'
+import { Team } from './../components/team'
 
 export default function Home() {
 
@@ -26,6 +27,7 @@ export default function Home() {
       />
 
       <Features/>
+      <Team />
       <Footer />
       </div>
   )
