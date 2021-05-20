@@ -25,7 +25,7 @@ export const Team = () => (
           Speakers
         </Heading>
         <Text fontSize="xl" maxW="2xl" mx="auto">
-          Serverless is a 
+        The inaugural edition of ServerlessDays Student Edition brings us a broad array of speakers and topics showcasing unique serverless projects as well as tips and tricks for getting started with serverless. 
         </Text>
       </Box>
       <SimpleGrid
