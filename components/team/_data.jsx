@@ -18,7 +18,7 @@ export const members = [
     description: 'Twilio',
   },
   {
-    role: 'Principal Developer Advocate',
+    role: 'Staff Developer Advocate',
     image:
       'https://on.notist.cloud/profile/pr-mattstratton-large-0980c343ba5c6d1d.png',
     name: 'Matty Stratton',
@@ -34,15 +34,6 @@ export const members = [
     linkedin: 'https://www.linkedin.com/in/journeyer/',
     description:
       'New Relic',
-  },
-  {
-    role: 'Principal Developer Advocate',
-    image:
-      'https://on.notist.cloud/profile/pr-mattstratton-large-0980c343ba5c6d1d.png',
-    name: 'Matty Stratton',
-    twitter: 'https://twitter.com/mattstratton',
-    linkedin: 'https://www.linkedin.com/in/mattstratton/',
-    description: 'Pulumi',
   },
   {
     role: 'Sr. Developer Advocate',
