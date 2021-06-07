@@ -28,7 +28,7 @@ export const members = [
   },
   {
     role: 'Sr. Developer Relations Engineer',
-    image: 'https://pbs.twimg.com/profile_images/1371635926519095298/23uj5hFk_400x400.jpg',
+    image: 'https://pbs.twimg.com/profile_images/1397786245812551680/yYz826Ut_400x400.jpg',
     name: 'Daniel Kim',
     twitter: 'https://twitter.com/learnwdaniel',
     linkedin: 'https://www.linkedin.com/in/journeyer/',
