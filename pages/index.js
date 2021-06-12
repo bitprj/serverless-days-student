@@ -6,6 +6,7 @@ import { Alert } from './../components/alert'
 import { Features } from './../components/feature'
 import { Footer } from './../components/footer'
 import { Team } from './../components/team'
+import { Sponsors } from './../components/sponsors'
 
 export default function Home() {
 
@@ -28,6 +29,7 @@ export default function Home() {
 
       <Features/>
       <Team />
+      <Sponsors />
       <Footer />
       </div>
   )
