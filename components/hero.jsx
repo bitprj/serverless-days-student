@@ -16,8 +16,12 @@ import {
   import { FaPlay } from 'react-icons/fa'
   
   
-  export const Hero = ( { heading, description,cta1, cta2, image, play, cta1link, cta2link }) => {
-    
+  export const Hero = ( { heading, description, cta1, cta2, image, play, cta1link, cta2link }) => {
+    const removeInput = event => {
+      document.getElementById('email').remove()
+      document.getElementById('signup').remove()
+      document.getElementById('formResponse').innerText = "Thanks! See you soon ❤️"
+    }
     return (
       <Box>
         <Box as="section" bg="gray.800" color="white" pt="7.5rem" bgImage="url('/stars.svg')" >
@@ -38,11 +42,13 @@ import {
               spacing="4"
             >
               <LightMode>
-              <form action="https://submit-form.com/KSm1o9II"  >
+              <form onSubmit={removeInput} action="https://submit-form.com/KSm1o9II"  >
               <Stack maxW="md" spacing="4" direction={{ base: 'column', sm: 'row' }}>
-                <Input type="email"  name="email" placeholder="Enter your Email" size="lg" />
+                <Input type="hidden" name="_redirect" value="student.serverlessdays.io"/>
+                <Input id="email" type="email"  name="email" placeholder="Enter your Email" size="lg" />
                 <Button
                     type="submit"
+                    id="signup"
                     size="lg"
                     colorScheme="purple"
                     px="12"
@@ -57,6 +63,9 @@ import {
               
             </Stack>
             <Box textAlign="center" mb="25">
+
+            <Text id="formResponse" fontSize="3xl" mt="4" maxW="xl" mx="auto" >
+            </Text>
 
             <Text fontSize="2xl" maxW="xl" mx="auto" color="gray.300">
                 August 15th, 2021 | Online
