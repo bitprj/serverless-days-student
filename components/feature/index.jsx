@@ -18,9 +18,10 @@ export const Features = () => {
       py={{
         md: '12',
       }}
+      bg="black"
+      color="white"
     >
       <Box
-        bg={mode('gray.50', 'gray.800')}
         maxW={{
           base: 'xl',
           md: '7xl',
@@ -43,6 +44,7 @@ export const Features = () => {
           }}
           spacing="10"
         >
+          
           <Box>
             <Heading size="2xl" mb="12" fontWeight="extrabold">
               About the conference
@@ -53,7 +55,7 @@ export const Features = () => {
               }}
               mb="6"
               maxW="md"
-              color={mode('gray.600', 'gray.400')}
+              color="#e0e0e0"
             >
               <a href="https://bitproject.org">Bit Project</a> is super excited to announce Serverless Days : Student Edition, a virtual conference for folks starting their journey with serverless. <br></br><br></br>
                From boot campers to experienced engineers who want to break into serverless, this conference will showcase unique serverless projects as well as tips and tricks for getting started. 
@@ -69,6 +71,7 @@ export const Features = () => {
             src="/octo.png"
             alt="Octologo"
           />
+          
         </SimpleGrid>
       </Box>
     </Box>

@@ -4,7 +4,7 @@ import * as React from 'react'
 import { Hero } from './../components/hero'
 import { Alert } from './../components/alert'
 import { Features } from './../components/feature'
-import { Footer } from './../components/footer'
+import { Footer } from './../components/footer/index'
 import { Team } from './../components/team'
 import { Sponsors } from './../components/sponsors'
 import {

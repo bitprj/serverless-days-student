@@ -3,7 +3,7 @@ import * as React from 'react'
 
 export const Sponsors = () => {
   return (
-    <Box as="section" py="16">
+    <Box as="section" py="16" bg="black" color="white">
       <Box maxW={{ base: 'xl', md: '7xl' }} mx="auto" px={{ base: '6', md: '8' }}>
         <Heading align="center" size="3xl" letterSpacing="tight" mb="5" fontWeight="extrabold">
           Sponsors
@@ -18,8 +18,8 @@ export const Sponsors = () => {
           spacing="6"
           color={mode('inherit', 'white')}
         >
-          <Center py="8" px="8" bg={mode('gray.50', 'gray.800')} rounded={{ md: 'lg' }}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png"></img>
+          <Center py="8" px="8" rounded={{ md: 'lg' }}>
+            <img src="https://www.reshiftsecurity.com/wp-content/uploads/2020/02/AWS3.png"></img>
           </Center>
         </SimpleGrid>
         <Heading size="lg" letterSpacing="tight" mb="5" fontWeight="extrabold">
@@ -32,8 +32,8 @@ export const Sponsors = () => {
           spacing="6"
           color={mode('inherit', 'white')}
         >
-          <Center py="8" px="8" bg={mode('gray.50', 'gray.800')} rounded={{ md: 'lg' }}>
-            <img src="https://newrelic.com/themes/custom/curio/assets/mediakit/NR_logo_Horizontal.png"></img>
+          <Center py="8" px="8"  rounded={{ md: 'lg' }}>
+            <img src="/newRelicLogo.png"></img>
           </Center>
         </SimpleGrid>
       </Box>

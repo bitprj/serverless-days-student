@@ -26,8 +26,8 @@ import {
 
     return (
       <Box cursor="url(/cursor.png), auto"> 
-        <Box as="section" bg="gray.800" color="white" pt="7.5rem" bgImage="url('/stars.svg')" >
-          <Box maxW={{ base: 'xl', md: '7xl' }} mx="auto" px={{ base: '6', md: '8' }} bg="gray.800">
+        <Box as="section" bg="black" color="white" pt="7.5rem">
+          <Box maxW={{ base: 'xl', md: '7xl' }} mx="auto" px={{ base: '6', md: '8' }}>
             <Box textAlign="center">
               <Img mx="auto" maxW="48rem" width="100%" src="/serverless.png"></Img>
 
@@ -46,7 +46,7 @@ import {
               <LightMode>
               <form onSubmit={removeInput} action="https://submit-form.com/KSm1o9II"  >
               <Stack maxW="md" spacing="4" direction={{ base: 'column', sm: 'row' }}>
-                <Input type="hidden" name="_redirect" value="student.serverlessdays.io"/>
+                <Input type="hidden" name="_redirect" value="/"/>
                 <Input id="email" type="email"  name="email" placeholder="Enter your Email" size="lg" />
                 <Button
                     type="submit"
