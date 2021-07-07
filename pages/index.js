@@ -7,6 +7,7 @@ import { Features } from './../components/feature'
 import { Footer } from './../components/footer/index'
 import { Team } from './../components/team'
 import { Sponsors } from './../components/sponsors'
+import { Workshop } from '../components/workshop'
 import {
   Box,
 } from '@chakra-ui/react'
@@ -20,7 +21,7 @@ export default function Home() {
   }
 
   return (
-    <Box cursor="url(/cursor.png), auto" onClick={() => playSound()}>
+    <Box cursor="url(/cursor.png), auto" onClick={() => playSound()} bg="black">
       <Head>
         <title>Serverless Days: Student Edition</title>
         <meta name="description" content="We are a virtual conference for students, by students learning serverless" />
@@ -37,6 +38,7 @@ export default function Home() {
       />
 
       <Features />
+      <Workshop />
       <Team />
       <Sponsors />
       <Footer />

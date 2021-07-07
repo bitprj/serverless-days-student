@@ -10,6 +10,7 @@ import {
 import * as React from 'react'
 import { BsFillGridFill, BsPlusCircleFill, BsShieldLockFill, BsArrowRight } from 'react-icons/bs'
 import { Feature } from './Feature'
+import styles from './Features.module.css'
 
 export const Features = () => {
   return (
@@ -70,6 +71,7 @@ export const Features = () => {
             objectFit="contain"
             src="/octo.png"
             alt="Octologo"
+            className={styles.image}
           />
           
         </SimpleGrid>
