@@ -21,9 +21,11 @@ import {
       document.getElementById('email').remove()
       document.getElementById('signup').remove()
       document.getElementById('formResponse').innerText = "Thanks! See you soon ❤️"
+    
     }
+
     return (
-      <Box>
+      <Box cursor="url(/cursor.png), auto"> 
         <Box as="section" bg="gray.800" color="white" pt="7.5rem" bgImage="url('/stars.svg')" >
           <Box maxW={{ base: 'xl', md: '7xl' }} mx="auto" px={{ base: '6', md: '8' }} bg="gray.800">
             <Box textAlign="center">
@@ -52,6 +54,9 @@ import {
                     size="lg"
                     colorScheme="purple"
                     px="12"
+                    _hover={{
+                      cursor: "url(/cursorHover.png), auto"
+                    }}
                     fontWeight="bold"
                     fontSize="md"
                   >

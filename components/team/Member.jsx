@@ -34,12 +34,16 @@ export const Member = (props) => {
       >
         {children}
       </Text>
-      <HStack mt="5" spacing="3">
-        <Link isExternal color={useColorModeValue('blue.600', 'blue.300')} href={twitter}>
+      <HStack mt="5">
+        <Link isExternal p="3" _hover={{
+          cursor: "url(/cursorHover.png), auto"
+        }} color={useColorModeValue('blue.600', 'blue.300')} href={twitter} >
           <VisuallyHidden>{`${name}'s Twitter page`}</VisuallyHidden>
           <FaTwitter aria-hidden />
         </Link>
-        <Link isExternal color={useColorModeValue('blue.600', 'blue.300')} href={linkedIn}>
+        <Link isExternal p="3" _hover={{
+          cursor: "url(/cursorHover.png), auto"
+        }} color={useColorModeValue('blue.600', 'blue.300')} href={linkedIn}>
           <VisuallyHidden>{`${name}'s Linkedin page`}</VisuallyHidden>
           <FaLinkedinIn aria-hidden />
         </Link>

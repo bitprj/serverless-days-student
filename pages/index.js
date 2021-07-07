@@ -7,12 +7,20 @@ import { Features } from './../components/feature'
 import { Footer } from './../components/footer'
 import { Team } from './../components/team'
 import { Sponsors } from './../components/sponsors'
+import {
+  Box,
+} from '@chakra-ui/react'
+
 
 export default function Home() {
 
+  const playSound = () => {
+    let audioEl = document.getElementsByClassName("audio-element")[0]
+    audioEl.play()
+  }
 
   return (
-    <div>
+    <Box cursor="url(/cursor.png), auto" onClick={() => playSound()}>
       <Head>
         <title>Serverless Days: Student Edition</title>
         <meta name="description" content="We are a virtual conference for students, by students learning serverless" />
@@ -20,17 +28,26 @@ export default function Home() {
       </Head>
       <Alert />
       <Hero
-                  description="We are a virtual conference for students, by students learning serverless"
-                  cta1="Submit CFP"
-                  cta2="RSVP →"
-                  image="/serverless.png"
-                  cta1link="https://www.notion.so/bitproject/Welcome-to-Serverless-Camp-e218f86daf4248509350709cd9fa8017"
+        description="We are a virtual conference for students, by students learning serverless"
+        cta1="Submit CFP"
+        cta2="RSVP →"
+        image="/serverless.png"
+        cta1link="https://www.notion.so/bitproject/Welcome-to-Serverless-Camp-e218f86daf4248509350709cd9fa8017"
+
       />
 
-      <Features/>
+      <Features />
       <Team />
       <Sponsors />
       <Footer />
-      </div>
+
+
+
+      <audio className="audio-element">
+          <source src="/meow.wav"></source>
+        </audio>
+
+
+    </Box>
   )
 }
