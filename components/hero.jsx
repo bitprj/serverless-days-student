@@ -44,6 +44,7 @@ import {
               <LightMode>
               <form onSubmit={removeInput} action="https://submit-form.com/KSm1o9II"  >
               <Stack maxW="md" spacing="4" direction={{ base: 'column', sm: 'row' }}>
+                <Input type="hidden" name="_redirect" value="student.serverlessdays.io"/>
                 <Input id="email" type="email"  name="email" placeholder="Enter your Email" size="lg" />
                 <Button
                     type="submit"
