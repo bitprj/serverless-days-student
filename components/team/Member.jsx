@@ -20,13 +20,12 @@ export const Member = (props) => {
         <Text fontWeight="bold" fontSize="lg">
           {name}
         </Text>
-        <Text fontWeight="semibold" color={useColorModeValue('gray.500', 'whiteAlpha.700')}>
+        <Text fontWeight="semibold" color={useColorModeValue('gray.400', 'whiteAlpha.700')}>
           {role}
         </Text>
       </Box>
       <Text
-        mt="2"
-        color={useColorModeValue('gray.600', 'whiteAlpha.900')}
+        color="#F3C066"
         maxW={{
           base: 'unset',
           md: '20rem',
@@ -41,6 +40,7 @@ export const Member = (props) => {
           <VisuallyHidden>{`${name}'s Twitter page`}</VisuallyHidden>
           <FaTwitter aria-hidden />
         </Link>
+
         <Link isExternal p="3" _hover={{
           cursor: "url(/cursorHover.png), auto"
         }} color={useColorModeValue('blue.600', 'blue.300')} href={linkedIn}>

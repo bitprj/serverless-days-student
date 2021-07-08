@@ -47,7 +47,7 @@ import {
               <form onSubmit={removeInput} action="https://submit-form.com/KSm1o9II"  >
               <Stack maxW="md" spacing="4" direction={{ base: 'column', sm: 'row' }}>
                 <Input type="hidden" name="_redirect" value="/"/>
-                <Input id="email" type="email"  name="email" placeholder="Enter your Email" size="lg" />
+                <Input id="email" type="email"  name="email" placeholder="Enter your email" size="lg" />
                 <Button
                     type="submit"
                     id="signup"

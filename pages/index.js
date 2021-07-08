@@ -27,7 +27,7 @@ export default function Home() {
         <meta name="description" content="We are a virtual conference for students, by students learning serverless" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Alert />
+      {/* <Alert /> */}
       <Hero
         description="We are a virtual conference for students, by students learning serverless"
         cta1="Submit CFP"
@@ -37,7 +37,13 @@ export default function Home() {
 
       />
 
-      <Features />
+      <Features 
+        title="About the conference"
+        p1="Bit Project is super excited to announce Serverless Days : Student Edition, a virtual conference for folks starting their journey with serverless."
+        p2="From boot campers to experienced engineers who want to break into serverless, this conference will showcase unique serverless projects as well as tips and tricks for getting started." 
+        img="/octo.png"
+      />
+
       <Workshop />
       <Team />
       <Sponsors />
