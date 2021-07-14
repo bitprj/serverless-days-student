@@ -19,6 +19,8 @@ export const Team = () => (
         base: '12',
         md: '20',
       }}
+      bg="black"
+      color="white"
     >
       <Box textAlign="center">
         <Heading size="3xl" letterSpacing="tight" mb="5" fontWeight="extrabold">

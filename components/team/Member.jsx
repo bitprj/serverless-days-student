@@ -20,13 +20,12 @@ export const Member = (props) => {
         <Text fontWeight="bold" fontSize="lg">
           {name}
         </Text>
-        <Text fontWeight="semibold" color={useColorModeValue('gray.500', 'whiteAlpha.700')}>
+        <Text fontWeight="semibold" color={useColorModeValue('gray.400', 'whiteAlpha.700')}>
           {role}
         </Text>
       </Box>
       <Text
-        mt="2"
-        color={useColorModeValue('gray.600', 'whiteAlpha.900')}
+        color="#F3C066"
         maxW={{
           base: 'unset',
           md: '20rem',
@@ -34,12 +33,17 @@ export const Member = (props) => {
       >
         {children}
       </Text>
-      <HStack mt="5" spacing="3">
-        <Link isExternal color={useColorModeValue('blue.600', 'blue.300')} href={twitter}>
+      <HStack mt="5">
+        <Link isExternal p="3" _hover={{
+          cursor: "url(/cursorHover.png), auto"
+        }} color={useColorModeValue('blue.600', 'blue.300')} href={twitter} >
           <VisuallyHidden>{`${name}'s Twitter page`}</VisuallyHidden>
           <FaTwitter aria-hidden />
         </Link>
-        <Link isExternal color={useColorModeValue('blue.600', 'blue.300')} href={linkedIn}>
+
+        <Link isExternal p="3" _hover={{
+          cursor: "url(/cursorHover.png), auto"
+        }} color={useColorModeValue('blue.600', 'blue.300')} href={linkedIn}>
           <VisuallyHidden>{`${name}'s Linkedin page`}</VisuallyHidden>
           <FaLinkedinIn aria-hidden />
         </Link>
