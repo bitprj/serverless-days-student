@@ -1,4 +1,4 @@
-import { Box, Center, Heading, SimpleGrid, useColorModeValue as mode } from '@chakra-ui/react'
+import { Box, Center, Heading, SimpleGrid, Img, useColorModeValue as mode } from '@chakra-ui/react'
 import * as React from 'react'
 
 export const Sponsors = () => {
@@ -8,33 +8,33 @@ export const Sponsors = () => {
         <Heading align="center" size="3xl" letterSpacing="tight" mb="5" fontWeight="extrabold">
           Sponsors
         </Heading>
-        <Heading size="lg" letterSpacing="tight" mb="5" fontWeight="extrabold">
-            Founding Tier
+        <Heading size="lg" letterSpacing="tight" mb="5" fontWeight="extrabold" align="center">
+          Founding Tier
         </Heading>
         <SimpleGrid
-          columns={{ base: 2, sm: 3, md: 4 }}
+          columns={{ base: 2, sm: 2, md: 4 }}
           mt="8"
           mb="8"
-          spacing="6"
+          spacing="10"
+          alignItems="center"
           color={mode('inherit', 'white')}
+          justify="center"
         >
-          <Center py="8" px="8" rounded={{ md: 'lg' }}>
-            <img src="https://www.reshiftsecurity.com/wp-content/uploads/2020/02/AWS3.png"></img>
-          </Center>
+          <Img src="https://www.reshiftsecurity.com/wp-content/uploads/2020/02/AWS3.png" />
+          <Img src="/courierText.png" marginTop="-10" />
         </SimpleGrid>
-        <Heading size="lg" letterSpacing="tight" mb="5" fontWeight="extrabold">
-            Logo Tier
+        <Heading size="lg" letterSpacing="tight" mb="5" fontWeight="extrabold" align="center">
+          Logo Tier
         </Heading>
         <SimpleGrid
-          columns={{ base: 2, sm: 3, md: 4 }}
+          columns={{ base: 2, sm: 2, md: 4 }}
           mt="8"
           mb="8"
-          spacing="6"
+          alignItems="center"
+          spacing="10"
           color={mode('inherit', 'white')}
         >
-          <Center py="8" px="8"  rounded={{ md: 'lg' }}>
-            <img src="/newRelicLogo.png"></img>
-          </Center>
+          <Img src="/newRelicLogo.png" />
         </SimpleGrid>
       </Box>
     </Box>
