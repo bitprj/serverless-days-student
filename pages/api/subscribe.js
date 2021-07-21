@@ -3,7 +3,7 @@ export default async function handler(req, res) {
 
     const response = await fetch(`https://api.mailerlite.com/api/v1/subscribers/107982808?` + new URLSearchParams({
         apiKey: process.env.MAILERLITE_KEY,
-        id: "107982808",
+        id: "108061810",
         email: email
     }), {
       body: JSON.stringify({
