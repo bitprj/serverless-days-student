@@ -22,7 +22,7 @@ export const Sponsors = () => {
           justify="center"
         >
           <Img src="https://www.reshiftsecurity.com/wp-content/uploads/2020/02/AWS3.png" />
-          <Img src="/courierText.png" marginTop="-10" />
+          <Img src="/courier-logo.png" marginTop="-10" />
         </SimpleGrid>
         <Heading size="lg" letterSpacing="tight" mb="5" fontWeight="extrabold" align="center">
           Logo Tier
