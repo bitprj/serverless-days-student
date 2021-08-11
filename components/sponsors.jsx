@@ -3,6 +3,7 @@ import * as React from 'react'
 
 export const Sponsors = () => {
   return (
+    // sponsor text
     <Box as="section" py="16" bg="black" color="white">
       <Box maxW={{ base: 'xl', md: '7xl' }} mx="auto" px={{ base: '6', md: '8' }}>
         <Heading align="center" size="3xl" letterSpacing="tight" mb="5" fontWeight="extrabold">
