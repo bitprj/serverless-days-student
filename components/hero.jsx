@@ -70,7 +70,7 @@ import {
               spacing="4"
             >
               <LightMode>
-              <form action="https://live.bitproject.org">
+              <form action="https://hopin.com/events/serverless-days-student-edition">
               <Stack maxW="md" spacing="4" direction={{ base: 'column', sm: 'row' }}>
 
                 <Button
@@ -85,7 +85,7 @@ import {
                     fontWeight="bold"
                     fontSize="md"
                   >
-                  Sign Up Now →
+                  Join Us Now →
                 </Button>
                 </Stack>
               </form>
