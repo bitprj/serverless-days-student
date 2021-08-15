@@ -70,11 +70,8 @@ import {
               spacing="4"
             >
               <LightMode>
-              <form onSubmit={subscribeEmail}>
+              <form action="https://hopin.com/events/serverless-days-student-edition">
               <Stack maxW="md" spacing="4" direction={{ base: 'column', sm: 'row' }}>
-
-                <Input type="hidden" name="_redirect" value="/"/>
-                <Input id="email" type="email"  name="email" placeholder="Enter your email" size="lg" />
 
                 <Button
                     type="submit"
@@ -88,7 +85,7 @@ import {
                     fontWeight="bold"
                     fontSize="md"
                   >
-                  Sign Up Now →
+                  Join Us Now →
                 </Button>
                 </Stack>
               </form>
