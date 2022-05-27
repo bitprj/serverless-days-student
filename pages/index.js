@@ -19,7 +19,8 @@ export default function Home() {
 
   return (
     // <Box cursor="url(/cursor.png), auto" onClick={() => playSound()} bg="black">
-    <Box cursor="url(/cursor.png), auto" bg="black">
+    // <Box cursor="url(/cursor.png), auto" bg="black">
+    <Box bg="black">
       <Head>
         <title>Serverless Days: Student Edition</title>
         <meta
@@ -44,18 +45,24 @@ export default function Home() {
         img="/octo.png"
       />
 
-      <Heading size="xl" py={12} fontWeight="bold" textAlign="center">
+      <Heading
+        size="xl"
+        py={12}
+        fontWeight="bold"
+        textAlign="center"
+        color="gray"
+      >
         More details coming soon!
       </Heading>
 
       {/* <Workshop />
       <Team />
-      <Sponsors />
+      <Sponsors /> *
       <Footer /> */}
 
-      <audio className="audio-element">
+      {/* <audio className="audio-element">
         <source src="/meow.wav"></source>
-      </audio>
+      </audio> */}
     </Box>
   );
 }

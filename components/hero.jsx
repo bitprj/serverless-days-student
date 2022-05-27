@@ -57,7 +57,8 @@ export const Hero = ({
   };
 
   return (
-    <Box cursor="url(/cursor.png), auto">
+    // <Box cursor="url(/cursor.png), auto">
+    <Box>
       <Box as="section" bg="black" color="white" pt="7.5rem">
         <Box
           maxW={{ base: "xl", md: "7xl" }}
