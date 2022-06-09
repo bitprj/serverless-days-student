@@ -2,10 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import * as React from "react";
 import { Landing } from "../components/Landing";
-// import { Alert } from "./../components/alert";
-import { Features } from "./../components/feature";
-import { Footer } from "./../components/Footer";
-import { Team } from "./../components/team";
+import { Features } from "../components/feature";
+// import { Footer } from "./../components/Footer";
 import { Sponsors } from "../components/Sponsors";
 import { MedSep } from "../components/Separators/MedSep";
 import { SmSep } from "../components/Separators/SmSep";
@@ -17,11 +15,6 @@ import { TeamCard } from "../components/Cards/TeamCard";
 import { BlueBg } from "../components/Buttons/BlueBg";
 import { NavBar } from "../components/NavBar";
 export default function Home() {
-  // const playSound = () => {
-  //   let audioEl = document.getElementsByClassName("audio-element")[0];
-  //   audioEl.play();
-  // };
-
   return (
     <>
       <Head>
@@ -184,7 +177,7 @@ export default function Home() {
           <Sponsors />
         </Container>
         <SmSep />
-        <Footer />
+        {/* <Footer /> */}
       </Box>
     </>
   );
