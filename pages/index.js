@@ -1,16 +1,21 @@
 import Head from "next/head";
 import Image from "next/image";
 import * as React from "react";
-import { Hero } from "./../components/hero";
+import { Landing } from "../components/Landing";
 // import { Alert } from "./../components/alert";
 import { Features } from "./../components/feature";
-// import { Footer } from "./../components/footer/index";
-// import { Team } from "./../components/team";
-// import { Sponsors } from "./../components/sponsors";
-// import { Workshop } from "../components/workshop";
-import { Heading } from "@chakra-ui/react";
-import { Box } from "@chakra-ui/react";
-
+import { Footer } from "./../components/Footer";
+import { Team } from "./../components/team";
+import { Sponsors } from "../components/Sponsors";
+import { MedSep } from "../components/Separators/MedSep";
+import { SmSep } from "../components/Separators/SmSep";
+import { TalkCard } from "../components/Cards/TalkCard";
+import { Box, Container, SimpleGrid } from "@chakra-ui/react";
+import { HeadingWithDesc } from "../components/HeadingWithDesc";
+import { SpeakerCard } from "../components/Cards/SpeakerCard";
+import { TeamCard } from "../components/Cards/TeamCard";
+import { BlueBg } from "../components/Buttons/BlueBg";
+import { NavBar } from "../components/NavBar";
 export default function Home() {
   // const playSound = () => {
   //   let audioEl = document.getElementsByClassName("audio-element")[0];
@@ -18,9 +23,7 @@ export default function Home() {
   // };
 
   return (
-    // <Box cursor="url(/cursor.png), auto" onClick={() => playSound()} bg="black">
-    // <Box cursor="url(/cursor.png), auto" bg="black">
-    <Box bg="black">
+    <>
       <Head>
         <title>Serverless Days: Student Edition</title>
         <meta
@@ -29,40 +32,160 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Alert /> */}
-      <Hero
-        description="We are a virtual conference for students, by students learning serverless"
-        cta1="Submit CFP"
-        cta2="RSVP →"
-        image="/serverless.png"
-        cta1link="https://www.notion.so/bitproject/Welcome-to-Serverless-Camp-e218f86daf4248509350709cd9fa8017"
-      />
 
-      <Features
-        title="About the conference"
-        p1="Bit Project is super excited to announce Serverless Days : Student Edition, a virtual conference for folks starting their journey with serverless."
-        p2="From boot campers to experienced engineers who want to break into serverless, this conference will showcase unique serverless projects as well as tips and tricks for getting started."
-        img="/octo.png"
-      />
+      <NavBar />
 
-      <Heading
-        size="xl"
-        py={12}
-        fontWeight="bold"
-        textAlign="center"
-        color="gray"
+      <Box
+        bg="linear-gradient( rgba(0, 0, 0, 0.5), rgba(23, 25, 35, 1) ), url('landing.JPG') top center"
+        bgSize="cover"
       >
-        More details coming soon!
-      </Heading>
+        <Landing />
+      </Box>
 
-      {/* <Workshop />
-      <Team />
-      <Sponsors /> *
-      <Footer /> */}
+      <Box bg="gray.900">
+        <Container maxW="container.xl">
+          <Features
+            p1="Bit Project is super excited to announce Serverless Days: Student Edition, a virtual conference for folks starting their journey with serverless."
+            p2="From boot campers to experienced engineers who want to break into serverless, this conference will showcase unique serverless projects as well as tips and tricks for getting started."
+            img="/octo.png"
+          />
+          <MedSep line={true} />
+          <HeadingWithDesc textAlign="center">
+            Workshops, Talks, Presentations
+          </HeadingWithDesc>
+          <SimpleGrid
+            columns={{ base: 1, md: 2 }}
+            spacing={16}
+            mt={16}
+            id="agenda"
+          >
+            <TalkCard
+              day={1}
+              type="talk"
+              time="8/21 @ 10:00 AM ET"
+              title="Serverless Education & CounselorBot"
+              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
+              names={["Ganning Xu", "Emily Chen"]}
+              avatars={["/ganning.jpeg", "/emily.jpeg"]}
+            />
+            <TalkCard
+              day={1}
+              type="presentation"
+              time="8/21 @ 10:00 AM ET"
+              title="Serverless Education & CounselorBot"
+              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
+              names={["Ganning Xu", "Emily Chen"]}
+              avatars={["/ganning.jpeg", "/emily.jpeg"]}
+            />
+            <TalkCard
+              day={2}
+              time="8/22 @ 10:00 AM ET"
+              type="workshop"
+              title="Serverless Education & CounselorBot"
+              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
+              names={["Ganning Xu", "Emily Chen"]}
+              avatars={["/ganning.jpeg", "/emily.jpeg"]}
+            />
+            <TalkCard
+              day={2}
+              type="workshop"
+              time="8/22 @ 10:00 AM ET"
+              title="Serverless Education & CounselorBot"
+              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
+              names={["Ganning Xu", "Emily Chen"]}
+              avatars={["/ganning.jpeg", "/emily.jpeg"]}
+            />
+            <TalkCard
+              day={2}
+              time="8/22 @ 10:00 AM ET"
+              type="workshop"
+              title="Serverless Education & CounselorBot"
+              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
+              names={["Ganning Xu", "Emily Chen"]}
+              avatars={["/ganning.jpeg", "/emily.jpeg"]}
+            />
+            <TalkCard
+              day={2}
+              type="workshop"
+              time="8/22 @ 10:00 AM ET"
+              title="Serverless Education & CounselorBot"
+              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
+              names={["Ganning Xu", "Emily Chen"]}
+              avatars={["/ganning.jpeg", "/emily.jpeg"]}
+            />
+          </SimpleGrid>
+          <MedSep line={true} />
+          <HeadingWithDesc
+            desc="Connect with our awesome speakers, workshop hosts, and presenters!"
+            textAlign="center"
+          >
+            Speakers
+          </HeadingWithDesc>
+          <SimpleGrid
+            columns={{ base: 1, md: 2, lg: 3, xl: 4 }}
+            spacing={8}
+            alignItems="center"
+            mt={8}
+            id="speakers"
+          >
+            <SpeakerCard
+              name="Ganning Xu"
+              title="Co-Director of Engineering"
+              company="Bit Project"
+              img="/ganning.jpeg"
+              linkedin="https://www.linkedin.com/in/ganningxu/"
+            />
+            <SpeakerCard
+              name="Emily Chen"
+              title="Co-Director of Engineering"
+              company="Bit Project"
+              img="/emily.jpeg"
+              linkedin="https://www.linkedin.com/in/emilyschen/"
+            />
+          </SimpleGrid>
+          <Box textAlign="center" mt={8}>
+            <BlueBg href="/SUBMIT_CFP">Submit your CFP</BlueBg>
+          </Box>
+          <MedSep line={true} />
 
-      {/* <audio className="audio-element">
-        <source src="/meow.wav"></source>
-      </audio> */}
-    </Box>
+          <HeadingWithDesc desc="Connect with our team!" textAlign="center">
+            Our Team
+          </HeadingWithDesc>
+          <SimpleGrid
+            columns={{ base: 1, md: 2, lg: 3, xl: 4 }}
+            spacing={8}
+            alignItems="center"
+            mt={8}
+            id="team"
+          >
+            <TeamCard
+              name="Ganning Xu"
+              title="Co-Director of Engineering"
+              company="Bit Project"
+              img="/ganning.jpeg"
+              linkedin="https://www.linkedin.com/in/ganningxu/"
+            />
+            <TeamCard
+              name="Emily Chen"
+              title="Co-Director of Engineering"
+              company="Bit Project"
+              img="/emily.jpeg"
+              linkedin="https://www.linkedin.com/in/emilyschen/"
+            />
+          </SimpleGrid>
+
+          <MedSep line={true} />
+          <HeadingWithDesc
+            desc="Check out our amazing partners!"
+            textAlign="center"
+          >
+            Sponsors
+          </HeadingWithDesc>
+          <Sponsors />
+        </Container>
+        <SmSep />
+        <Footer />
+      </Box>
+    </>
   );
 }
