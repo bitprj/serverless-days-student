@@ -7,8 +7,8 @@ import {
   useColorModeValue as mode,
 } from "@chakra-ui/react";
 import * as React from "react";
-import { SponsorCard } from "./Cards/SponsorCard";
-import { BlueLine } from "./Buttons/BlueLine";
+import { SponsorCard } from "../Cards/SponsorCard";
+import { BlueLine } from "../Buttons/BlueLine";
 
 export const Sponsors = () => {
   return (
