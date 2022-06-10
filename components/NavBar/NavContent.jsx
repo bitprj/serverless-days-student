@@ -37,10 +37,10 @@ const links = [
     label: "Sponsors",
     href: "#sponsors",
   },
-  // {
-  //   label: "CoC",
-  //   herf: "/CODE_OF_CONDUCT",
-  // },
+  {
+    label: "CoC",
+    href: "/coc",
+  },
 ];
 
 const MobileNavContent = (props) => {
