@@ -92,7 +92,9 @@ export default function Home() {
             />
           </SimpleGrid>
           <Box textAlign="center" mt={8}>
-            <BlueBg href="/SUBMIT_CFP">Submit your CFP</BlueBg>
+            <BlueBg href="https://airtable.com/shrcvcTLLApodQJYG">
+              Submit your CFP
+            </BlueBg>
           </Box>
           <MedSep line={true} />
 
