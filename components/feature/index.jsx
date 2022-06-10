@@ -8,8 +8,6 @@ import {
   useColorModeValue as mode,
 } from "@chakra-ui/react";
 import * as React from "react";
-import { Feature } from "./Feature";
-import styles from "./Features.module.css";
 import { HeadingWithDesc } from "../Headings/HeadingWithDesc";
 
 export const Features = ({ title, p1, p2, img }) => {

@@ -37,7 +37,9 @@ export const Sponsors = () => {
       </SimpleGrid>
       {/* <Button>Sponsor Us</Button> */}
       <Box textAlign="center" mt={4}>
-        <BlueLine href="/SPONSOR">Interested in Sponsoring?</BlueLine>
+        <BlueLine href="mailto:info@bitproject.org">
+          Interested in Sponsoring?
+        </BlueLine>
       </Box>
     </Box>
   );

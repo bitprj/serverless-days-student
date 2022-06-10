@@ -27,8 +27,12 @@ export const Landing = () => {
         </Text>
 
         <HStack justifyContent="center" mt={3} spacing={4}>
-          <BlueLine href="/SIGN_UP">Submit your CFP</BlueLine>
-          <BlueBg href="/SIGN_UP">Reserve your spot</BlueBg>
+          <BlueLine href="https://airtable.com/shrcvcTLLApodQJYG">
+            Submit your CFP
+          </BlueLine>
+          <BlueBg href="https://airtable.com/shrNjoawKZLej3fa1">
+            Reserve your spot
+          </BlueBg>
         </HStack>
       </Box>
     </Box>

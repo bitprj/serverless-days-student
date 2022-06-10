@@ -15,11 +15,11 @@ import { NavListItem } from "./NavListItem";
 const links = [
   {
     label: "Register",
-    href: "/REGISTER",
+    href: "https://airtable.com/shrNjoawKZLej3fa1",
   },
   {
     label: "CFP",
-    href: "/CFP",
+    href: "https://airtable.com/shrcvcTLLApodQJYG",
   },
   {
     label: "Agenda",
@@ -37,10 +37,10 @@ const links = [
     label: "Sponsors",
     href: "#sponsors",
   },
-  {
-    label: "CoC",
-    herf: "/CODE_OF_CONDUCT",
-  },
+  // {
+  //   label: "CoC",
+  //   herf: "/CODE_OF_CONDUCT",
+  // },
 ];
 
 const MobileNavContent = (props) => {

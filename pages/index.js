@@ -61,51 +61,6 @@ export default function Home() {
               names={["Ganning Xu", "Emily Chen"]}
               avatars={["/ganning.jpeg", "/emily.jpeg"]}
             />
-            <TalkCard
-              day={1}
-              type="presentation"
-              time="8/21 @ 10:00 AM ET"
-              title="Serverless Education & CounselorBot"
-              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
-              names={["Ganning Xu", "Emily Chen"]}
-              avatars={["/ganning.jpeg", "/emily.jpeg"]}
-            />
-            <TalkCard
-              day={2}
-              time="8/22 @ 10:00 AM ET"
-              type="workshop"
-              title="Serverless Education & CounselorBot"
-              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
-              names={["Ganning Xu", "Emily Chen"]}
-              avatars={["/ganning.jpeg", "/emily.jpeg"]}
-            />
-            <TalkCard
-              day={2}
-              type="workshop"
-              time="8/22 @ 10:00 AM ET"
-              title="Serverless Education & CounselorBot"
-              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
-              names={["Ganning Xu", "Emily Chen"]}
-              avatars={["/ganning.jpeg", "/emily.jpeg"]}
-            />
-            <TalkCard
-              day={2}
-              time="8/22 @ 10:00 AM ET"
-              type="workshop"
-              title="Serverless Education & CounselorBot"
-              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
-              names={["Ganning Xu", "Emily Chen"]}
-              avatars={["/ganning.jpeg", "/emily.jpeg"]}
-            />
-            <TalkCard
-              day={2}
-              type="workshop"
-              time="8/22 @ 10:00 AM ET"
-              title="Serverless Education & CounselorBot"
-              desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
-              names={["Ganning Xu", "Emily Chen"]}
-              avatars={["/ganning.jpeg", "/emily.jpeg"]}
-            />
           </SimpleGrid>
           <MedSep line={true} />
           <HeadingWithDesc
