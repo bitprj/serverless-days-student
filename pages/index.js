@@ -102,12 +102,27 @@ export default function Home() {
             Our Team
           </HeadingWithDesc>
           <SimpleGrid
-            columns={{ base: 1, md: 2, lg: 3, xl: 4 }}
+            columns={{ base: 1, md: 2, lg: 3, xl: 3 }}
             spacing={8}
             alignItems="center"
             mt={8}
             id="team"
           >
+            <TeamCard
+              name="Daniel Kim"
+              title="Co-Founder"
+              company="Bit Project"
+              img="/daniel.jpeg"
+              linkedin="https://www.linkedin.com/in/journeyer/"
+            />
+            <TeamCard
+              name="Shreya Gupta"
+              title="Co-Founder"
+              company="Bit Project"
+              img="/shreya.jpeg"
+              linkedin="https://www.linkedin.com/in/shreyagg/"
+              twitter="https://twitter.com/shreythecray"
+            />
             <TeamCard
               name="Ganning Xu"
               title="Co-Director of Engineering"
@@ -121,6 +136,22 @@ export default function Home() {
               company="Bit Project"
               img="/emily.jpeg"
               linkedin="https://www.linkedin.com/in/emilyschen/"
+            />
+
+            <TeamCard
+              name="Misha Patel"
+              title="Director of Partnerships"
+              company="Bit Project"
+              img="/misha.jpeg"
+              linkedin="https://www.linkedin.com/in/misha-patel17/"
+            />
+
+            <TeamCard
+              name="Beatrix Cendana"
+              title="Student Community Manager"
+              company="Bit Project"
+              img="/beatrix.jpeg"
+              linkedin="https://www.linkedin.com/in/beatrixcendana/"
             />
           </SimpleGrid>
 

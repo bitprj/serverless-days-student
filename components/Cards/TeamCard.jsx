@@ -43,7 +43,7 @@ export const TeamCard = ({ name, title, img, twitter, linkedin }) => {
 
       <HStack justify="center">
         {twitter && (
-          <Box as="a" href={twitter} taraget="_blank">
+          <Box as="a" href={twitter} target="_blank">
             <Icon as={AiOutlineTwitter} fontSize="3xl" color="#1DA1F2" />
           </Box>
         )}
