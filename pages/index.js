@@ -109,13 +109,6 @@ export default function Home() {
             id="team"
           >
             <TeamCard
-              name="Daniel Kim"
-              title="Co-Founder"
-              company="Bit Project"
-              img="/daniel.jpeg"
-              linkedin="https://www.linkedin.com/in/journeyer/"
-            />
-            <TeamCard
               name="Shreya Gupta"
               title="Co-Founder"
               company="Bit Project"
@@ -152,6 +145,26 @@ export default function Home() {
               company="Bit Project"
               img="/beatrix.jpeg"
               linkedin="https://www.linkedin.com/in/beatrixcendana/"
+            />
+
+            <TeamCard
+              name="Mac Barnes"
+              title="Web Development Intern"
+              company="Bit Project"
+              img="/mac.jpeg"
+              linkedin="https://www.linkedin.com/in/mac-barnes-2a6814218/"
+            />
+
+            <TeamCard
+              name="Amelia Linton"
+              title="Community Management Intern"
+              company="Bit Project"
+              img="/amelia.jpeg"
+            />
+            <TeamCard
+              name="Avadh Patel"
+              title="Community Management Intern"
+              company="Bit Project"
             />
           </SimpleGrid>
 
