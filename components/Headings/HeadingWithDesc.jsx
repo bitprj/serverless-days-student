@@ -13,7 +13,7 @@ export const HeadingWithDesc = (props) => {
         {props.children}
       </Heading>
       <Text
-        fontSize="xl"
+        fontSize="md"
         maxW="2xl"
         mt={2}
         color="gray.200"

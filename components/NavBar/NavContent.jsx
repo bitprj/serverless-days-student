@@ -34,6 +34,10 @@ const links = [
     href: "#team",
   },
   {
+    label: "Swag",
+    href: "/swag",
+  },
+  {
     label: "Sponsors",
     href: "#sponsors",
   },
