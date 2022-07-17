@@ -8,6 +8,7 @@ const DesktopNavLink = (props) => {
       display="flex"
       alignItems="center"
       justifyContent="center"
+      target={props.href.startsWith("http") ? "_blank" : "_self"}
       borderBottom="2px"
       borderColor="transparent"
       transition="all 0.2s"
@@ -28,6 +29,7 @@ const MobileNavLink = (props) => {
       fontWeight="bold"
       py="5"
       fontSize="lg"
+      target={props.href.startsWith("http") ? "_blank" : "_self"}
       color="white"
       w="full"
       _hover={{
