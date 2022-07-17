@@ -23,15 +23,15 @@ const links = [
   },
   {
     label: "Agenda",
-    href: "#agenda",
+    href: "/#agenda",
   },
   {
     label: "Speakers",
-    href: "#speakers",
+    href: "/#speakers",
   },
   {
     label: "Our Team",
-    href: "#team",
+    href: "/#team",
   },
   {
     label: "Swag",
@@ -39,7 +39,7 @@ const links = [
   },
   {
     label: "Sponsors",
-    href: "#sponsors",
+    href: "/#sponsors",
   },
   {
     label: "CoC",
