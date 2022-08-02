@@ -33,12 +33,7 @@ export const SpeakerCard = ({
         />
       </WrapItem>
 
-      <Text
-        color={"brandLight.gray"}
-        fontWeight="bold"
-        fontSize={{ base: "md", lg: "xl" }}
-        color="white"
-      >
+      <Text fontWeight="bold" fontSize={{ base: "md", lg: "xl" }} color="white">
         {name}
       </Text>
       {company && (
@@ -53,7 +48,7 @@ export const SpeakerCard = ({
 
       <HStack justify="center">
         {twitter && (
-          <Box as="a" href={twitter} taraget="_blank">
+          <Box as="a" href={twitter} target="_blank">
             <Icon as={AiOutlineTwitter} fontSize="3xl" color="#1DA1F2" />
           </Box>
         )}

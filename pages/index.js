@@ -61,6 +61,16 @@ export default function Home() {
               names={["Ganning Xu", "Emily Chen"]}
               avatars={["/ganning.jpeg", "/emily.jpeg"]}
             />
+
+            <TalkCard
+              day={1}
+              type="talk"
+              time="8/21 @ 10:00 AM ET"
+              title="Why building serverless applications makes you a better developer!"
+              desc="Not only does serverless allow you to produce results faster with lower upfront and maintenance costs and hassle, it can even help you in building better, more robust distributed applications without even trying."
+              names={["Gareth McCumskey"]}
+              avatars={["/gareth.jpeg"]}
+            />
           </SimpleGrid>
           <MedSep line={true} />
           <HeadingWithDesc
@@ -89,6 +99,14 @@ export default function Home() {
               company="Bit Project"
               img="/emily.jpeg"
               linkedin="https://www.linkedin.com/in/emilyschen/"
+            />
+
+            <SpeakerCard
+              name="Gareth McCumskey"
+              title="Developer Advocate"
+              company="Serverless Inc."
+              img="/gareth.jpeg"
+              twitter="https://twitter.com/garethmcc"
             />
           </SimpleGrid>
           <Box textAlign="center" mt={8}>
