@@ -55,7 +55,7 @@ export default function Home() {
             <TalkCard
               day={1}
               type="workshop"
-              time="8/20 @ 2:00 PM ET"
+              time="8/20 @ 2:00 PM PT"
               title="Build Your Tech Portfolio with John Kilmister"
               desc="There are three crucial tools that a software engineer needs to break into tech: GitHub, LinkedIn, and a Resume. With 17+ years of experience working in software, John Kilmister will share his thoughts on how to make your technical portfolio stand out in job applications."
               names={["John Kilmister"]}
@@ -64,7 +64,7 @@ export default function Home() {
             <TalkCard
               day={1}
               type="talk"
-              time="8/20 @ 3:00 PM ET"
+              time="8/20 @ 3:00 PM PT"
               title="Developing and Deploying Secure Code with AWS Lambda with Tal Melamed"
               desc="Tal has over 15 years experience in security research and engineering and recently co-founded CloudEssence, a cloud-native security company that enables organizations to extend security visibility to applications developed in a serverless architecture. In 2020, CloudEssence was acquired by Contrast Security, where he currently leads the new research center in Italy. Previous to CloudEssence, Tal was head of security research at Protego Labs, a Serverless security start-up that was acquired by Check Point in 2019."
               names={["Tal Melamed"]}
@@ -74,7 +74,7 @@ export default function Home() {
             <TalkCard
               day={1}
               type="talk"
-              time="8/20 @ 5:00 PM ET"
+              time="8/20 @ 5:00 PM PT"
               title="Intro to React through Pokémon with Bryan Wong"
               desc="Learning the basics of React and Es6 by building a Pokédex from Pokémon!"
               names={["Bryan Wong"]}
@@ -84,7 +84,7 @@ export default function Home() {
             <TalkCard
               day={1}
               type="workshop"
-              time="8/20 @ 3:00 PM ET"
+              time="8/20 @ 3:00 PM PT"
               title="Using Drone to Deploy Cloud Native Apps with Confidence with Jaap Brasser"
               desc="Over the past few years, a growing number of organizations have started to adopt Cloud Native architectures. Despite the adoption of Cloud Native architectures many companies haven’t achieved optimal results. Wondering why? One of  the reasons is our adherence to traditional ways of building and deploying applications."
               names={["Jaap Brasser"]}
@@ -94,7 +94,7 @@ export default function Home() {
             <TalkCard
               day={2}
               type="talk"
-              time="8/21 @ 3:00 AM ET"
+              time="8/21 @ 3:00 AM PT"
               title="Deploy Your Azure Functions the DevOps Way with Jaap Brasser"
               desc="So you're using Azure Functions, but how can we make sure that everything runs as intended when it's deployed. Using proper CI/CD pipelines can be beneficial but hard to setup. Join us in this session to learn about the power of automated pipelines to create more, faster!"
               names={["Jaap Brasser"]}
@@ -104,7 +104,7 @@ export default function Home() {
             <TalkCard
               day={2}
               type="talk"
-              time="8/21 @ 3:00 AM ET"
+              time="8/21 @ 3:00 AM PT"
               title="How to Write Node.js Lambda Functions with Luke Hedger"
               desc="In this talk, Luke will walk-through how to write the most awesome Node.js Lambda functions, from project initialization through to deployment and operation. We'll explore folder structure, code standards, dependency management, linting, formatting, static analysis, testing, CI/CD and monitoring. All by employing the latest and greatest standards, as used by serverless experts! We'll also question what we could be doing better and what the future might hold."
               names={["Luke Hedger"]}
@@ -114,7 +114,7 @@ export default function Home() {
             <TalkCard
               day={2}
               type="workshop"
-              time="8/21 @ 3:00 AM ET"
+              time="8/21 @ 3:00 AM PT"
               title="Learn to Manage Templates for Serverless Applications with Tatiana Cooke"
               desc="DevOps and Platform Engineers are experts in infrastructure as code (IaC) who are responsible for helping their organization implement design best-practices in the cloud. As serverless emerges as a preferred technology, having the right tools to manage IaC templates can make a big difference. In this workshop, we'll cover AWS tools including CloudFormation for IaC templating, and AWS Proton for template management to give you an idea of how DevOps engineers are engaging with this type of technology."
               names={["Tatiana Cooke"]}
@@ -124,7 +124,7 @@ export default function Home() {
             <TalkCard
               day={2}
               type="talk"
-              time="8/21 @ 3:00 AM ET"
+              time="8/21 @ 3:00 AM PT"
               title="Serverless: Ship on Day 1 with Luke Hedger"
               desc="Unleash the full power of serverless by shipping your software on day 1 - and every day after that! Let's look at how we can snap together a small set of tools to quickly and simply get your serverless application running in the AWS cloud. Featuring: VS Code, GitHub and AWS. We will explore the basics of local development, infrastructure as code, automated tests, continuous delivery pipelines and observability!"
               names={["Luke Hedger"]}
@@ -134,7 +134,7 @@ export default function Home() {
             <TalkCard
               day={2}
               type="talk"
-              time="8/21 @ 10:00 AM ET"
+              time="8/21 @ 10:00 AM PT"
               title="Serverless Education & CounselorBot"
               desc="Ganning and Emily share their experiences teaching Serverless to students across the United States. We'll also talk about CounselorBot!"
               names={["Ganning Xu", "Emily Chen"]}
@@ -144,7 +144,7 @@ export default function Home() {
             <TalkCard
               day={2}
               type="talk"
-              time="8/21 @ 10:00 AM ET"
+              time="8/21 @ 10:00 AM PT"
               title="Why building serverless applications makes you a better developer!"
               desc="Not only does serverless allow you to produce results faster with lower upfront and maintenance costs and hassle, it can even help you in building better, more robust distributed applications without even trying."
               names={["Gareth McCumskey"]}
@@ -154,7 +154,7 @@ export default function Home() {
             <TalkCard
               day={2}
               type="talk"
-              time="8/21 @ 10:00 AM ET"
+              time="8/21 @ 10:00 AM PT"
               title="Why building serverless applications makes you a better developer!"
               desc="Not only does serverless allow you to produce results faster with lower upfront and maintenance costs and hassle, it can even help you in building better, more robust distributed applications without even trying."
               names={["Gareth McCumskey"]}
@@ -164,7 +164,7 @@ export default function Home() {
             <TalkCard
               day={2}
               type="workshop"
-              time="8/21 @ 1:00 PM ET"
+              time="8/21 @ 1:00 PM PT"
               title="API Integration Demo and Debugging Tutorial with Christian Lechner"
               desc="Integrating software solutions into your webapp can take your projects to the next level in a matter of minutes. Development Architect, Christian Lechner, brings his experience as an Azure MVP to demonstrate the fundamentals of incorporating the GitHub and Dev.to APIs into your Azure HTTP-Trigger Functions."
               names={["Christian Lechner"]}
@@ -174,7 +174,7 @@ export default function Home() {
             <TalkCard
               day={2}
               type="talk"
-              time="8/21 @ 2:00 PM ET"
+              time="8/21 @ 2:00 PM PT"
               title="Typescript Beyond The Stack with the CDK with Ryan Cormack"
               desc="The modern technology stack traditionally consists of the Frontend, Backend and a Database. But we need a way to get our code from our computer to their server. The AWS Cloud Developer Kit (CDK) is a tool that allows us to write and deploy our infrastructure in languages used to write the rest of the stack, including Typescript. By leveraging the CDK we’re able to write our infrastructure, backend and frontend all in Typescript and even deploy it to Amazon’s serverless compute platform. In this session Ryan will look at the basic concepts behind the CDK, what is happening when you use it and how it allows us to quickly and easily get a full stack Typescript application, with a website, API and database, up and running in a language we are familiar with."
               names={["Ryan Cormack"]}
