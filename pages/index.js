@@ -148,8 +148,8 @@ export default function Home() {
               time="8/21 @ 12:00 PM PT"
               title="Function Orchestration in the world of Serverless by Daron Yöndem"
               desc="You have a function, or two, or maybe more? Now is the time to talk about making sure you have full control on how data and communication flows between your functions. You need something to control how your functions interact to each other. You need something that can give you granular control, or sometimes maybe a simple user interface to get it done. This session is about your options in Azure to accomplish all that. We will look into Durable Functions and Logic Apps to understand where they can help us scaling our serverless move."
-              names={["Ryan Cormack"]}
-              avatars={["/ryan.jpeg"]}
+              names={["Daron Yöndem"]}
+              avatars={["/daron.png"]}
             />
 
             <TalkCard
